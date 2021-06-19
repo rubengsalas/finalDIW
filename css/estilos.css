@@ -1,0 +1,419 @@
+/*Estilos Herramientas HTML+CSSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px/1.6 'Libre Franklin', sans-serif;
+    color: #000;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1em;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    color: #FF3A20; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+cite, address {
+    font-style: normal;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+/*Classes para aumentar paddings*/
+
+.pBottom15 {
+    padding-bottom: 15px !important;
+}
+
+.pBottom0 {
+    padding-bottom: 0px !important;
+}
+
+.pBottom20 {
+    padding-bottom: 20px !important;
+}
+
+.pTop15 {
+    padding-top: 15px !important;
+}
+
+.pTop0 {
+    padding-top: 0px !important;
+}
+
+.pTop50 {
+    padding-top: 50px !important;
+}
+
+.pBottom50 {
+    padding-bottom: 50px !important;
+}
+
+/*Clases aplicadas a las imágenes y videos del sitio */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+.img-centered {
+    display: block;
+    margin: 15px auto;
+}
+
+.img-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 1rem;
+}
+/*Videos-Imagenes grandes*/
+figure {
+    width: 75%;
+    margin: 30px auto;
+}
+
+/*Videos-Imagenes pequeñas*/
+figure.small {
+    width: 50%;
+    margin: 30px auto;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
+/*Cita en cursiva*/
+.small cite{
+    font-style: italic;
+}
+
+/*Propiedades de los contenedores de video y los videos*/
+.video-fluid {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-fluid-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-fluid::before {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+/*Classes para los elemnetos graficos */
+.imgFluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Clase para los lectores de pantalla*/
+.sr {
+    position:absolute;
+    height:1px;    
+    width:1px;    
+    overflow:hidden;    
+    clip:rect(1px, 1px, 1px, 1px);
+}
+
+/*Contenedores*/
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
+}
+
+header {
+    width: 100%;
+}
+
+.background {
+    background-color: rgba(136, 136, 136, 1);
+}
+
+/*para que se  aline la imagen destacada*/
+figure{
+    text-align: left;
+    width: 75%;
+}
+
+/*Contenedores que se adaptan*/
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+  
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+
+
+/*Menú de navegación principal*/
+nav {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+/*Menu en pantallas grandes*/
+@media (min-width: 768px) {
+    nav ul li {
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+/*Estilo de los textos y enlaces del menu*/
+nav a {
+    color:black;
+    text-decoration: none;
+}
+
+.current{
+    color: #FF3A20;
+    text-decoration: none;
+}
+
+/*Logo*/
+.top {
+    color: #000;
+    text-align: center;
+}
+
+.top p{
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top img{
+    width: 96px;
+}
+
+/*Separador*/
+.top hr{
+    border-top: 5px solid #F7F2F3;
+    color: transparent;
+}
+
+a img:hover {
+    filter: grayscale(100%);
+}
+
+p.intro {
+    font-size: 1.4rem;
+    padding: 0px;
+    padding-top: 30px;
+}
+
+.content {
+    font-size: 1.1rem;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+figure.center {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.center figcaption {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    figure.center {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Footer / Pie de página*/
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 30px;    
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+}
+
+/*Imagenes del pie de pagina*/
+
+footer div img{
+    padding: 3px;
+    height: 36px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/*Tamaño de las letras del pie de pagina*/
+
+footer p{
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*Estilos para el artículo */
+
+article{
+    text-align: justify;
+}
+
+/*Recuadro de la bio*/
+
+div.autor {
+    background-color: #F7F2F3;
+    padding: 15px;
+    overflow: auto;
+}
+
+p.bio {
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+/*Recuadro de las referencias*/
+
+div.quote {
+    background-color: #F7F2F3;
+    border-right: 0.4rem solid #FF3A20;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+}
+
+/*Estilo de las listas Aplicaciones de la IA*/
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+ul ul {
+    list-style-type: circle;
+    padding-left: 3rem;
+}
+
+ul li {
+    padding-top: 10px;
+}
+
+/*Parrafo final*/
+
+.bottom{
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*Listas de definicion*/
+
+/*Titulo*/
+dt{
+    font-size: 1.75rem;
+}
+
+/*Espacio entre definiciones*/
+dd{
+    padding-bottom: 25px;
+}

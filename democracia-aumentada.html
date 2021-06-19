@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/logo_16.png">
+
+    <title>Enciclopedía Front-End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+</head>
+
+<body>
+    <a class="sr" href="#main">Salta al contenido principal</a>
+
+    <header>
+        <div class="top">
+            <img src="img/folder.png" />
+            <p>Herramientas de Futuro</p>
+            <hr class="pBottom20">
+        </div>
+        <nav class="pBottom20">
+            <ul>
+                <li><a href="democracia-aumentada.html" class="current">DEMOCRACIA AUMENTADA</a></li>
+                <li><a href="aplicaciones-ia.html">APLICACIONES DE LA IA</a></li>
+                <li><a href="glosario.html">GLOSARIO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <article class="container">
+
+            <header>
+                <h2 class="sans">Democracia aumentada</h2>
+                <p class="meta">Por Cristina Sáez, 26 de junio de 2018</p>
+                <div class="autor">
+                    <img src="img/cristinasaez.jpg" alt="Cristina Sáez" class="img-rounded img-left">
+                    <p class="bio">Periodista especializada en ciencia y cultura digital.
+                        Actualmente colabora con La Vanguardia, Muy Interesante, Historia y Vida y Mètode, y ha
+                        trabajado también en los diarios Público y Auvi.
+                    </p>
+                </div>
+            </header>
+            <p class="intro clear-left">
+                Las nuevas herramientas, como los macrodatos, los algoritmos o la inteligencia artificial, podrían
+                ayudarnos a resolver problemas sociales y a repensar el modelo de democracia.
+                Se podrían evitar casos de mala praxis y de corrupción, optimizaríamos la inversión pública e incluso
+                podríamos delegar el voto en agentes virtuales, a los que entrenaríamos a partir de nuestras
+                preferencias.
+                Hablamos de ello con los investigadores del MIT Medialab Luis Pastor (grupo de Ciencia de la Ciudad) y
+                César Hidalgo (grupo de Aprendizaje Colectivo).
+            </p>
+
+            <p class="content clear-left">
+                En 2015, Hamburgo quería postularse para acoger unos Juegos Olímpicos. Así que contactó con el
+                <a href="https://www.media.mit.edu/groups/city-science/overview/">Laboratorio de Ciencia de la Ciudad
+                    del Media Lab</a>, un centro de innovación del MIT pionero en el mundo,
+                para que estos les ayudaran a pensar y diseñar cómo debía ser la villa olímpica futura y hacerse con la
+                candidatura.
+            </p>
+
+            <p class="content clear-left">Pero entonces todo cambió. Y, de la noche a la mañana, el encargo al que
+                tuvieron que hacer frente los investigadores del Media Lab fue otro.
+                A esta ciudad alemana empezaron a llegar decenas de miles de refugiados sirios. El alcalde quería seguir
+                optando a ser sede de las Olimpiadas, pero ¿cómo? ¿Qué podía hacer con los refugiados? ¿Dónde podía
+                colocarlos?
+                Y, sobre todo, ¿cómo podía hacerlo de forma eficiente para que se integraran en el ecosistema
+                metropolitano y no se crearan guetos?
+            </p>
+
+            <p class="content clear-left">Ese fue el reto que nos planteó el alcalde de Hamburgo y que tuvimos que
+                resolver en tan solos dos meses: cómo ubicar a más de 70.000 refugiados en una ciudad de cerca de dos
+                millones de habitantes, cuenta el arquitecto madrileño Luis Pastor, científico investigador del grupo de
+                Ciencia de la Ciudad.
+                El alcalde, además, quería que se generara debate público, que se realizara un proceso participativo
+                para decidir con los habitantes de Hamburgo dónde colocar a esos refugiados, de abajo a arriba, añade.
+            </p>
+
+            <p class="content clear-left">Los científicos del MIT Media Lab contactaron con <a
+                    href="https://www.hcu-hamburg.de/">HafenCity Universität
+                    Hamburg</a> y junto a ellos usaron algoritmos, inteligencia artificial e inteligencia humana para
+                resolver
+                el problema.
+                Usaron datos demográficos de los refugiados, y también datos de la ciudad como la normativa urbanística
+                de cada zona; el número de colegios, hospitales y ambulatorios; las normas legales de cada zona; la
+                diversidad cultural, económica y social, etc. Y desarrollaron una herramienta de interacción
+                humano-ordenador, llamada CityScope, para fomentar la participación de los ciudadanos y la toma de
+                decisiones.
+            </p>
+            <figure>
+                <div class="video-fluid">
+                    <iframe class="video-fluid-item" src="https://www.youtube.com/embed/AIuqJWcSKxc"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <a class="sr" href=https://youtu.be/AIuqJWcSKxc>Ver el vídeo en Youtube</a>
+                </div>
+                <figcaption>
+                    <cite lang="en">How MIT Builds Cities Using Lego and Augmented Reality |
+                        <abbr title="WIRED">WIRED</abbr>
+                    </cite>
+                </figcaption>
+            </figure>
+            <p class="content clear-left">
+                Lo primero que hicimos fue tratar de entender cómo la gente estaba usando la ciudad, y a partir de esa
+                comprensión generamos modelos de simulación para proponer e intentar responder qué pasaría si…
+                Por ejemplo, qué pasaría si de repente el transporte público de la ciudad tuviera que asumir a 10.000
+                personas más, señala Alonso, en el espacio que su grupo de investigación tiene en el imponente y
+                futurista edificio de cristal del Media Lab, repleto de maquetas reales de ciudades en las que se
+                proyectan, en tiempo real, datos de sus ciudadanos, del tráfico, del tiempo, etc. Depende. En función de
+                cada proyecto.
+            </p>
+
+            <p class="content clear-left">
+                Entonces, los investigadores llevaron a cabo un proceso de participación ciudadana en el que sentaba a
+                representantes de diferentes sectores de la sociedad, de la extrema derecha a la extrema izquierda, para
+                que debatieran y escogieran dónde colocar a aquellos inmigrantes.
+                Se trataba de talleres en los que, usando los datos de los que disponíamos, esas mesas en las que
+                participaba toda la sociedad debían decidir dónde colocar a los inmigrantes, apunta Alonso.
+            </p>
+
+            <p class="content clear-left">
+                El proyecto, que bautizaron como FindingPlaces, fue un éxito rotundo. Permitió que unos 400 hamburgueses
+                identificaran 160 ubicaciones de consenso para llevar a esas personas recién llegadas. Como remacha
+                Alonso:
+            </p>
+
+            <div class="quote">
+                <p class="content">
+                    Comprobamos que las mesas participadas nos decían lo mismo que nos decía el algoritmo, y hoy en día
+                    hay más de 10.000 refugiados que ya han encontrado hogar en la ciudad y alrededor de ellos se está
+                    generando un ecosistema económico que funciona.
+                    Los ciudadanos de Hamburgo están viendo resultados. Y el proyecto, además, propició una interacción
+                    constructiva y colaborativa, generó conciencia social acerca de los refugiados y un sentimiento de
+                    empoderamiento en los participantes.
+                </p>
+            </div>
+
+            <h2 class="pTop15">Democracia y tecnología</h2>
+
+            <figure>
+                <div class="img-fluid">
+                    <img class="imgFluid" src="img/programmer.jpg" />
+                </div>
+                <figcaption>
+                    <cite lang="es">Mujeres enseñando a otras mujeres a votar, 1935 | <a
+                            href="https://www.flickr.com/photos/kheelcenter/5278843891">Kheel Center</a> | CC BY
+                    </cite>
+                </figcaption>
+            </figure>
+
+            <p class="content clear-left">
+                La democracia se puede actualizar o mejorar usando tecnología y nuevas ideas, estoy convencido de ello,
+                asegura en este
+                sentido el físico chileno César Hidalgo, al frente del grupo Aprendizaje Colectivo, también del MIT
+                Media Lab. En el futuro,
+                podremos automatizar varias de las labores de los gobiernos. Los políticos serán aumentados por
+                algoritmos que trabajarán con
+                equipos de personas especialistas para ser verdaderos sirvientes del pueblo, añade, cuando menos
+                polémico.
+
+            </p>
+
+            <p class="content clear-left">
+                En el grupo de Hidalgo, en el que trabajan físicos, ingenieros computacionales, psicólogos, economistas,
+                geógrafos y diseñadores,
+                tratan de diseccionar cómo aprenden los países, las organizaciones, los equipos y las regiones, y cómo
+                usar ese conocimiento para
+                mejorar la sociedad. Ahora Hidalgo anda embarcado en un nuevo y ambicioso proyecto de lo que él llama
+                democracia aumentada.
+            </p>
+
+            <p class="content clear-left">
+                Tenemos un sistema político que es imperfecto, que ha funcionado más o menos igual durante los últimos
+                doscientos años.
+                Y es mejorable, argumenta argumenta este físico, para quien lo primero que tiene que cambiar es sobre
+                qué hablamos:
+                abandonar el quién como foco del debate y pasar a pensar en el cómo. Disponemos de herramientas que nos
+                permiten que el
+                ciudadano se empodere, fomentar su participación. Se evitarían muchos casos de corrupción o proyectos
+                mal pensados o innecesarios.
+
+            </p>
+
+            <p class="content clear-left">
+                La idea de la democracia aumentada surgió hace apenas un año, cuando Hidalgo estaba en Chile presentando
+                otro proyecto.
+                En una reunión con periodistas de un diario digital, comenzaron a hablar de la relación, antiquísima,
+                entre democracia y periodismo.
+                En teoría, dice Hidalgo, los diarios escriben historias en las que describen el comportamiento de los
+                políticos para que la gente
+                pueda tomar mejores decisiones sobre qué líderes o partidos apoyar. El problema es que es realmente
+                complicado no quedarse en la punta del iceberg.
+            </p>
+
+            <p class="content clear-left">
+                La inteligencia artificial puede ayudarnos a generar información contrafactual, expone el físico
+                chileno.
+                Y se explica: imagínense que se pudieran tomar todas las leyes que está votando el parlamento, el
+                congreso,
+                y hacer que toda la sociedad también las votara. Eso permitiría comparar a los representantes políticos
+                con sus votantes.
+            </p>
+
+            <p class="content clear-left">
+                El problema es que hacer que la población participe en cada votación de ley resultaría extremadamente
+                caro y complicado.
+                De hecho, en el marco del Estado español hay algunos proyectos que están intentando empujar
+                implementaciones de democracia directa, como <a href="https://decide.madrid.es/">decide.madrid.es</a>.
+            </p>
+
+            <h2>¿El ágora virtual?</h2>
+
+            <p class="content clear-left">
+                Pero, ¿y si pudiéramos delegar nuestro voto? Con un agente virtual, como un avatar, podríamos. Se trata
+                de un algoritmo que aprende de ti,
+                de tus preferencias, que tú entrenas, que se nutre de tus datos y predice tu elección, espeta Hidalgo.
+                Y, de la misma forma que nuestro pensamiento evoluciona, el algoritmo evoluciona con él. Con nosotros.
+            </p>
+
+            <p class="content clear-left">
+                Volviendo al ejemplo del diario, los medios de comunicación podrían disponer de una plataforma en la que
+                los usuarios se podrían registrar,
+                entrenar a su avatar para que éste pudiera realizar predicciones. El diario podría comparar en cada caso
+                qué votó el congreso o un determinado político
+                y qué la población. El cuarto poder puede usar la inteligencia artificial como una manera de alcanzar un
+                índice más elevado de participación y de dar
+                una información contrafactual, afirma Hidalgo.
+
+            </p>
+
+            <p class="content clear-left">
+                Imagínense que pudieran participar en decidir cómo se distribuye el presupuesto estatal, local,
+                autonómico, dedicado a inversión pública.
+                Imagínense que pudieran participar, puntuando las cosas que más les importan, como educación,
+                transporte, recreación en los distintos barrios, etc.
+                Disponer de esas valoraciones, por ejemplo, le daría al gobierno un patrón preciso de cuáles son las
+                prioridades de la población.
+                Es una información muy valiosa para los tecnócratas del gobierno que tratan de diseñar cómo optimizar la
+                inversión pública.
+
+            </p>
+
+            <p class="content clear-left">
+                Pensar que en el futuro puede que dejemos la toma de decisiones en manos de un mini-yo virtual que
+                prediga ante cada situación qué es lo
+                que nosotros elegiríamos resulta controvertido para muchos. Hidalgo, ante este planteamiento, como
+                Alonso, insiste en que los algoritmos
+                que tendremos en el futuro –tanto los que harán la compra en el súper por nosotros como los que dirán a
+                nuestros candidatos políticos qué
+                opinamos sobre tal o cual– no decidirán por nosotros. Nos ayudarán en la medida que determinemos. Son
+                una herramienta, como una bicicleta, que no va sola.
+                Eres tú quien decide hacia dónde quieres ir, la bici simplemente te ayuda a llegar más rápido, asegura.
+
+            </p>
+
+            <p class="content clear-left">
+                Pero, y los ciudadanos, ¿tenemos ganas de decidir continuamente, en una era en la que tenemos acceso a
+                una cantidad ingente de información
+                y en la que se nos pide todo el tiempo que hagamos elecciones?
+
+            </p>
+
+            <div class="quote">
+                <p class="content">
+                    Los algoritmos van a ser una auténtica revolución que nos va a ayudar a ser capaces de sobrellevar
+                    el exceso de información.
+                    Tienen que ser herramientas creadas por los ciudadanos, que funcionen en un sistema abierto y
+                    distribuido.
+                    Tu avatar puede correr en una instancia privada en tu ordenador o en la nube, y solo tiene acceso a
+                    una información concreta tuya.
+                    Es un sistema al que tú haces una pregunta y él da una respuesta.
+
+                </p>
+            </div>
+
+            <p class="content clear-left pTop15">
+                Y esos algoritmos serán auditables de forma continua, a través de su comportamiento y también del
+                código.
+
+            </p>
+
+            <div class="quote">
+                <p class="content">
+                    Está claro que es una revolución y que lo que pretendemos es empezar a explorar las aristas de la
+                    tecnología.
+                    Quizás aún queden sesenta u ochenta años para que esté madura. Seguramente cuando mi hija de cuatro
+                    años tenga mi edad,
+                    esta idea de aplicar la inteligencia artificial a la democracia le parecerá obvia. Ella ya tendrá
+                    una educación sobre lo que son los algoritmos,
+                    sobre cómo se comportan los datos, muy distinta a la de las generaciones actuales. Estamos diseñando
+                    esto para los usuarios del futuro.
+                    Es una transformación lenta, una revolución, para los ciudadanos futuros, a los que tenemos que
+                    dejar unas instituciones mejores de las que nos hemos encontrado.
+
+                </p>
+            </div>
+
+            <p class="content clear-left pTop15">
+                El ágora estará en las plazas de los pueblos, sí, pero también, y sobre todo, en la nube.
+
+            </p>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="https://google.es"><img src="img/cc.xlarge.png" /></a>
+            <a href="https://google.es"><img src="img/by.xlarge.png" /></a>
+            <a href="https://google.es"><img src="img/nc-eu.xlarge.png" /></a>
+        </div>
+        <div class="container pBottom50">
+            <p>Trabajo realizado por Rubén García Salas. Asignatura: Asignatura HTML y CSS</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
